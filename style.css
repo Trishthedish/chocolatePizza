@@ -1,55 +1,97 @@
+@import url("normalize.css");
+@import url("skeleton.css");
+
 body {
   float:flex;
+  margin-left: 200px;
+  margin-right: 200px;
 }
-#head {
-  float:left;
-}
+
 #icons {
 float:right;
 }
-#logo1 {
-  height:30px;
-  width:30px;
-}
+
 #title {
-  float:flex;
-  font-size:10px;
-  font-family: cursive;
-  margin-left:5px;
+  float: flex;
+  heigh: 105px;
+  width: 270px;
+
 }
+
+.hailmary {
+  line-height: -50px;
+}
+
 #header {
   font-size: 7px;
   font-family: monospace;
 }
 #pizza {
-  height:400px;
-  width:600px;
+  height:500px;
+  width:770px;
 }
 .tab {
   text-indent: 25px;
+  font-family: Oswald;
+  font-weight: lighter;
 }
 #box {
   background-image:url(images/list-bg.png);
-  height:200px;
-  width:600px;
+  height:175px;
+  width:770px;
   padding:2px;
   margin:5px;
 }
 #textBox {
-  padding:40px;
-  -webkit-columns: 2 150px;
- -moz-columns: 2 150px;
- columns: 2 150px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  -webkit-columns: 2 100px;
+ -moz-columns: 2 100px;
+ columns: 2 100px;
  -webkit-column-gap: 2em;
  -moz-column-gap: 2em;
  column-gap: 2em;
+ font-family: Ubuntu;
 }
-#print{
-  float:right;
+
 }
+.print {
+  float:flex;
+  margin-left: 720px;
+}
+
+.print:after {
+  content:"PRINT";
+}
+
 #share {
   float:right;
 }
 #bottom {
   content:url(images/logo.png);
+}
+
+#vanessa  {
+  float: left;
+}
+
+#checked {
+  text-decoration: line-through;
+}
+/*"This doesn't work, but it should!" said, every programmer. EVER. But I mean it. */
+
+
+#share {
+  background-color: #ff774d;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+#above {
+  font-family: Oswald;
 }
